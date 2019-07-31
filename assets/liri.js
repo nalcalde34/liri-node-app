@@ -8,7 +8,6 @@ var request = require ('request');
 var moment = require ('moment');
 
 var spotify = new Spotify(keys.spotify);
-//Node file system module
 var fs = require ('fs');
 
 //Get node command line arguments
